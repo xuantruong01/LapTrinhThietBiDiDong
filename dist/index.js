@@ -10,6 +10,9 @@ const Bai07_1 = require("./Bai07");
 const Bai08_1 = require("./Bai08");
 const Bai09_1 = require("./Bai09");
 const Bai10_1 = require("./Bai10");
+const Bai11_1 = require("./Bai11");
+const Bai12_1 = require("./Bai12");
+const Bai13_1 = require("./Bai13");
 // Bài 01
 console.log("--------Bài 01--------");
 const person = new Bai01_1.Person("Xuân Trường", 21);
@@ -65,7 +68,19 @@ account.setBalance(2000);
 console.log(account);
 //Bài 11
 console.log("--------Bài 11--------");
+const cat = new Bai11_1.Cats("Beo");
+cat.meow();
+const dog = new Bai11_1.Dog("Bum");
+dog.bark();
 //Bài 12
 console.log("--------Bài 12--------");
+const bird = new Bai12_1.Bird();
+const fish = new Bai12_1.Fish();
+bird.Fly();
+fish.Swim();
 //Bài 13
 console.log("--------Bài 13--------");
+const square = new Bai13_1.Square(20);
+const circle = new Bai13_1.Circle(10);
+console.log("Area square: " + square.area());
+console.log("Area circle: " + circle.area());

@@ -8,6 +8,9 @@ import { User } from "./Bai07";
 import { Product } from "./Bai08";
 import { Animal, Cat } from "./Bai09";
 import { Account } from "./Bai10";
+import { Animal1, Cats, Dog } from "./Bai11";
+import { Bird, Fish } from "./Bai12";
+import { Circle, Square } from "./Bai13";
 
 // Bài 01
 console.log("--------Bài 01--------")
@@ -77,10 +80,24 @@ console.log(account);
 
 //Bài 11
 console.log("--------Bài 11--------")
+const cat = new Cats("Beo");
+cat.meow();
+const dog = new Dog("Bum");
+dog.bark();
 //Bài 12
 console.log("--------Bài 12--------")
+const bird = new Bird();
+const fish = new Fish();
+bird.Fly();
+fish.Swim();
 //Bài 13
 console.log("--------Bài 13--------")
+const square = new Square(20);
+const circle = new Circle(10);
+console.log("Area square: " + square.area());
+console.log("Area circle: " + circle.area());
+
+
 
 
 
